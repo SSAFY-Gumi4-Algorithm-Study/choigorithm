@@ -12,9 +12,9 @@
 ## 📁 스터디원
 | | |
 |:--:|:--:|
-| 📂 김도영 | 📂 윤진원 |
+| 📂 [김도영](https://github.com/SSAFY-Gumi4-Algorithm-Study/Dogorithm) | 📂 [윤진원](https://github.com/SSAFY-Gumi4-Algorithm-Study/yungorithm)|
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=kwat1&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dnj1510&theme=warm) |
-| 📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/algorithm-ye) | 📂 황효주 |
+| 📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm) | 📂 [황효주](https://github.com/SSAFY-Gumi4-Algorithm-Study/hyogorithm) |
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=y_e_99&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=qorwns2021&theme=warm) |
 
 <br>
