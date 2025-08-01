@@ -11,6 +11,6 @@ public class Main {
             ans += (n /= 5);
         }
 
-        System.out.println(sb);
+        System.out.println(ans);
     }
 }
