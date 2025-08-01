@@ -11,8 +11,6 @@ public class Main {
             ans += (n /= 5);
         }
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(ans);
         System.out.println(sb);
     }
 }
