@@ -39,7 +39,7 @@ public class Main {
 		
 		int max = Arrays.stream(cnt).max().getAsInt();
 
-    // 출력
+    		// 출력
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < n; i++) {
 			if (cnt[i] == max)
