@@ -7,12 +7,12 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine()); // 건물 개수
 		// 건물 높이, 가장 가까운 건물 거리, 볼 수 있는 건물 개수
-		int[] h = new int[n + 1], dist = new int[n + 1], cnt = new int[n + 1];
+		int[] h = new int[n + 1], near = new int[n + 1], cnt = new int[n + 1];
 
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		for (int i = 1; i <= n; i++) {
 			h[i] = Integer.parseInt(st.nextToken());
-			dist[i] = 100001;
+			near[i] = 100001;
 		}
 
 		// left
@@ -23,7 +23,7 @@ public class Main {
 			}
 			cnt[i] = stack.size();
 			if (cnt[i] > 0)
-				dist[i] = stack.peek();
+				near[i] = stack.peek();
 			stack.push(i);
 		}
 
@@ -35,8 +35,8 @@ public class Main {
 			}
 			int s = stack.size();
 			cnt[i] += s;
-			if (s > 0 && Math.abs(stack.peek() - i) < Math.abs(dist[i] - i)) // left 건물과 거리 비교
-				dist[i] = stack.peek();
+			if (s > 0 && Math.abs(stack.peek() - i) < Math.abs(near[i] - i)) // left 건물과 거리 비교
+				near[i] = stack.peek();
 			stack.push(i);
 		}
 
@@ -44,7 +44,7 @@ public class Main {
 		for (int i = 1; i <= n; i++) {
 			sb.append(cnt[i]);
 			if (cnt[i] != 0)
-				sb.append(" ").append(dist[i]);
+				sb.append(" ").append(near[i]);
 			sb.append("\n");
 		}
 		System.out.println(sb);
