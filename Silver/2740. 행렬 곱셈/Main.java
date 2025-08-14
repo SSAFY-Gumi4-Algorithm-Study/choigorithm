@@ -2,11 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-	static int n, ans = 0;
-	static int[] s, w;
-
 	public static void main(String[] args) throws IOException {
-		// 입력
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.parseInt(st.nextToken());
