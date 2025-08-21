@@ -46,16 +46,15 @@ public class Main {
 	}
 
 	static void dfs(int r, int c) {
-		if (r < 0 || c < 0 || r >= n || c >= n || !arr[r][c]) {
-			return;
-		}
-
 		arr[r][c] = false;
 		cnt++;
 
 		for (int i = 0; i < 4; i++) {
 			int nr = r + dr[i];
 			int nc = c + dc[i];
+			
+			if (nr < 0 || nc < 0 || nr >= n || nc >= n || !arr[nr][nc])
+				continue;
 
 			dfs(nr, nc);
 		}
