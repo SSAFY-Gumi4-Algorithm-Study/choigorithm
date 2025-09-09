@@ -62,6 +62,9 @@ public class Main {
 					if (nr < 0 || nc < 0 || nr >= n || nc >= m || map[nr][nc] == -2)
 						break;
 
+					if (nr == er && nc == ec)
+						return map[cur.r][cur.c] + 1;
+
 					if (map[nr][nc] == -1) { // 미방문
 						q.offer(new Point(nr, nc));
 						map[nr][nc] = map[cur.r][cur.c] + 1;
