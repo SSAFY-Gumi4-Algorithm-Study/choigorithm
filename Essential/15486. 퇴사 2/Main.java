@@ -22,16 +22,16 @@ public class Main {
 			consults[i] = new Consult(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
 		} // 입력 끝
 
-		int[] dp = new int[n + 2]; // idx일까지의 최대 수익
+		int[] dp = new int[n + 1]; // idx일까지의 최대 수익
 
 		for (int i = 1; i <= n; i++) {
 			dp[i] = Math.max(dp[i], dp[i - 1]);
-			if (i + consults[i].t <= n + 1)
-				dp[i + consults[i].t] = Math.max(dp[i + consults[i].t], dp[i] + consults[i].p);
+
+			int end = i + consults[i].t - 1; // 끝나는 날
+			if (end <= n)
+				dp[end] = Math.max(dp[end], dp[i - 1] + consults[i].p);
 		}
 
-		dp[n + 1] = Math.max(dp[n], dp[n + 1]);
-
-		System.out.println(dp[n + 1]);
+		System.out.println(dp[n]);
 	}
 }
