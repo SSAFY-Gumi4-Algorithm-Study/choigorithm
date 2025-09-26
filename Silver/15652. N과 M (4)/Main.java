@@ -4,7 +4,6 @@ import java.io.*;
 public class Main {
     static int n, m;
     static int[] arr;
-    //static boolean[] visited;
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
