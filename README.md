@@ -10,7 +10,7 @@
 -->
 
 ## 📁 스터디원
-| 📂 [이용문](https://github.com/SSAFY-Gumi4-Algorithm-Study/) | 📂 [윤진원](https://github.com/SSAFY-Gumi4-Algorithm-Study/yungorithm)|
+| 📂 [이용문](https://github.com/SSAFY-Gumi4-Algorithm-Study/mungorithm) | 📂 [윤진원](https://github.com/SSAFY-Gumi4-Algorithm-Study/yungorithm)|
 |:--:|:--:|
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=cocoyi00&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dnj1510&theme=warm) |
 | **📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm)** | **📂 [황효주](https://github.com/SSAFY-Gumi4-Algorithm-Study/hyogorithm)** |
@@ -19,87 +19,30 @@
 <br>
 
 ## 📌 공통 문제
-<table>
-  <thead>
-    <tr>
-      <th align="center">주차</th>
-      <th align="center">문제 번호</th>
-      <th align="center">난이도</th>
-      <th align="center">문제</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">8월 1주차</td>
-      <td align="center">1012</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/1012">유기농 배추</a></td>
-    </tr>
-    <tr>
-      <td align="center">8월 2주차</td>
-      <td align="center">16926</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/16926">배열 돌리기 1</a></td>
-    </tr>
-    <tr>
-      <td align="center">8월 3주차</td>
-      <td align="center">22866</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/22866">탑 보기</a></td>
-    </tr>
-    <tr>
-      <td align="center">8월 4주차</td>
-      <td align="center">2492</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/2492">보석</a></td>
-    </tr>
-    <tr>
-      <td align="center">8월 5주차</td>
-      <td align="center">1946</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/1946">신입 사원</a></td>
-    </tr>
-    <tr>
-      <td align="center">9월 1주차</td>
-      <td align="center">14503</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/14503">로봇 청소기</a></td>
-    </tr>
-    <tr>
-      <td align="center">9월 2주차</td>
-      <td align="center">16930</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/18.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/16930">달리기</a></td>
-    </tr>
-    <tr>
-      <td align="center">9월 3주차</td>
-      <td align="center">15486</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/15486">퇴사 2</a></td>
-    </tr>
-    <tr>
-      <td align="center">9월 4주차</td>
-      <td align="center">2533</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/2533">사회망 서비스(SNS)</a></td>
-    </tr>
-    <tr>
-      <td align="center">10월 1주차</td>
-      <td align="center">16236</td>
-      <td align="center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/></td>
-      <td align="center"><a href="https://www.acmicpc.net/problem/16236">아기 상어</a></td>
-    </tr>
-    <tr>
-      <td align="center">10월 2주차</td>
-      <td colspan="3" align="center"><b>
-        *･ﾟﾟ･*:.｡..｡.:*ﾟ:*:✼✿ 즐거운 추석 연휴 보내세요 ✿✼:*ﾟ:.｡..｡.:*･ﾟﾟ･*
-      </b></td>
-    </tr>
-  </tbody>
-</table>
 
+| 주차       | 문제 번호 | 난이도 | 문제 |
+|------------|-----------|--------|------|
+| 8월 1주차  | 1012  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  | [유기농 배추](https://www.acmicpc.net/problem/1012) |
+| 8월 2주차  | 16926 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [배열 돌리기 1](https://www.acmicpc.net/problem/16926) |
+| 8월 3주차  | 22866 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [탑 보기](https://www.acmicpc.net/problem/22866) |
+| 8월 4주차  | 2492  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [보석](https://www.acmicpc.net/problem/2492) |
+| 8월 5주차  | 1946  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [신입 사원](https://www.acmicpc.net/problem/1946) |
+| 9월 1주차  | 14503 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [로봇 청소기](https://www.acmicpc.net/problem/14503) |
+| 9월 2주차  | 16930 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/18.svg"/> | [달리기](https://www.acmicpc.net/problem/16930) |
+| 9월 3주차  | 15486 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [퇴사 2](https://www.acmicpc.net/problem/15486) |
+| 9월 4주차  | 2533  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) |
+| 10월 1주차 | 16236 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [아기 상어](https://www.acmicpc.net/problem/16236) |
+| 10월 2주차 | -     | - | **✿ 즐거운 추석 연휴 보내세요 ✿** |
+| 10월 3주차  | 20056 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) |
+| 10월 4주차  | 21608 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [상어 초등학교](https://www.acmicpc.net/problem/21608) |
 
+<br>
 
+## 📚 추천 문제집
+
+- [백준 상어 시리즈 🦈](https://www.acmicpc.net/workbook/view/7672)
+- [백준 삼성 SW 역량 테스트 기출 문제](https://www.acmicpc.net/workbook/view/1152)
+- [백준 삼성 A형 기출 문제](https://www.acmicpc.net/workbook/view/2771)
 
 <br>
 
