@@ -11,8 +11,8 @@
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=cocoyi00&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dnj1510&theme=warm) |
 | **📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm)** | **📂 [황효주](https://github.com/SSAFY-Gumi4-Algorithm-Study/hyogorithm)** |
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=y_e_99&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=gywn83&theme=warm) |
-| **📂 [김현수](https://github.com/SSAFY-Gumi4-Algorithm-Study/baekgorithm)** | - |
-| ![mazandi profile](http://mazandi.herokuapp.com/api?handle=wshyhs&theme=warm) | - |
+| **📂 [김현수](https://github.com/SSAFY-Gumi4-Algorithm-Study/baekgorithm)** | **📂 [강지석](https://github.com/SSAFY-Gumi4-Algorithm-Study/jigorithm)** |
+| ![mazandi profile](http://mazandi.herokuapp.com/api?handle=wshyhs&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=rkdwltjr5876&theme=warm) |
 
 <br>
 
