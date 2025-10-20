@@ -5,7 +5,7 @@
 
 <br>
 
-## 📁 스터디원
+[📋 문제 풀이 체크 Notion](https://www.notion.so/292d9e51e25380f3b596d26b73b96d46?source=copy_link)
 | 📂 [이용문](https://github.com/SSAFY-Gumi4-Algorithm-Study/mungorithm) | 📂 [윤진원](https://github.com/SSAFY-Gumi4-Algorithm-Study/yungorithm)|
 |:--:|:--:|
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=cocoyi00&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dnj1510&theme=warm) |
