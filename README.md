@@ -33,14 +33,20 @@
 | 10월 2주차 | -     | - | **✿ 즐거운 추석 연휴 보내세요 ✿** |
 | 10월 3주차  | 20056 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) |
 | 10월 4주차  | 21608 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [상어 초등학교](https://www.acmicpc.net/problem/21608) |
+| 10월 5주차  | 11437 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [LCA](https://www.acmicpc.net/problem/11437) |
+| 11월 1주차  | 18808 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [스티커 붙이기](https://www.acmicpc.net/problem/18808) |
+| 11월 2주차  | 1781 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [컵라면](https://www.acmicpc.net/problem/1781) |
 
 <br>
 
-## 📚 추천 문제집
+## 📚 백준 문제집
 
 - [백준 상어 시리즈 🦈](https://www.acmicpc.net/workbook/view/7672)
 - [백준 삼성 SW 역량 테스트 기출 문제](https://www.acmicpc.net/workbook/view/1152)
 - [백준 삼성 A형 기출 문제](https://www.acmicpc.net/workbook/view/2771)
+- [IT기업 및 대기업 계열사 코테보면서 비슷했던 문제들](https://www.acmicpc.net/workbook/view/8708)
+- [★직접 코테 광탈하면서 모은 문제들☆](https://www.acmicpc.net/workbook/view/4357)
+- [코딩 테스트 완전 정복 - Greedy(그리디), 탐욕 필수 문제](https://www.acmicpc.net/workbook/view/4380)
 
 <br>
 
@@ -76,7 +82,11 @@
 * **미제출 시 패널티**: 5,000원
 * **월차:** 한 달에 1회 사용 가능 (최소 이틀 전 공유 필수)  
 
-패널티를 낸 이후 **일주일 내에** 해당 과제를 모두 완료하지 못할 경우, **추가로 5,000원의 벌금이 부과됩니다.**
+### ⚠️ 주의사항
+* 패널티를 낸 후에도 미제출한 공통 문제 풀이 및 리뷰는 제출해야 합니다.  
+  * 패널티를 낸 이후 **일주일 내에** 해당 과제를 모두 완료하지 못할 경우, **추가로 5,000원의 벌금이 부과됩니다.**
+* 문제는 풀었는데 레포에 업로드하지 않으면 패널티 💸
+* 해당 주차 코드 리뷰를 건너뛰고 다음 주 리뷰를 하면 패널티 💸
 
 <br>
 
@@ -102,31 +112,6 @@ PR 제목은 브랜치명과 동일하게 작성합니다. <br>
 
 5. 머지 <br>
 리뷰가 끝나면 PR을 Merge 합니다. <br>
-<br>
-
-## 📁 디렉토리 구조 및 커밋 메세지 예시
-
-```
-📦algorithm-study
- ┣ 📂Essential
- ┃ ┗ 📜유기농배추.java
- ┣ 📂Bronze
- ┃ ┗ 📜백설공주와일곱난쟁이.java
- ┣ 📂Silver
- ┃ ┗ 📜구간합구하기4.java
- ┣ 📂Gold
- ┃ ┗ 📜LCS.java
-```
-
-```
-[티어] 문제번호. 문제이름
-
-[실버 3] 11659. 구간합구하기4
-[골드 5] 9251. LCS
-```
-
-> 디렉토리 구조와 커밋 메세지는 예시일 뿐, **편한 방식으로 자유롭게 관리**해도 됩니다.
-
 <br>
 
 ---
