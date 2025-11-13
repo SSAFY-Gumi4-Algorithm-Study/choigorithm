@@ -32,7 +32,7 @@ jobs:
             git config user.email "youngeun.choi26@gmail.com"
 
             git add README.md
-            git commit -m "chore: sync README from upstream" || echo "No changes to commit"
+            git commit -m "README 자동 동기화" || echo "No changes"
 
             git remote set-url origin https://x-access-token:${PAT}@github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm.git
             git push origin HEAD:main
