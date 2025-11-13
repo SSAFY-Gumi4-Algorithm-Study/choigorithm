@@ -19,7 +19,7 @@ jobs:
 
       - name: Download upstream README
         run: |
-          curl -L https://raw.githubusercontent.com/원본-owner/원본-repo/브랜치/README.md \
+          curl -L https://github.com/SSAFY-Gumi4-Algorithm-Study/.github/blob/main/profile/README.md \
             -o upstream_README.md
 
       - name: Update README if changed
