@@ -19,8 +19,8 @@ jobs:
 
       - name: Download upstream README
         run: |
-          curl -L https://github.com/SSAFY-Gumi4-Algorithm-Study/.github/blob/main/profile/README.md \
-            -o upstream_README.md
+          curl -L https://raw.githubusercontent.com/SSAFY-Gumi4-Algorithm-Study/.github/main/profile/README.md \
+            -o README.md
 
       - name: Update README if changed
         env:
