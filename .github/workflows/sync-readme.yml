@@ -17,7 +17,6 @@ jobs:
 
       - name: Download upstream README
         run: |
-          # 👉 여기 owner/repo/branch 를 원본 레포에 맞게 수정하세요
           curl -L https://github.com/SSAFY-Gumi4-Algorithm-Study/.github/blob/main/profile/README.md \
             -o upstream_README.md
 
@@ -27,8 +26,8 @@ jobs:
           if [ ! -f README.md ] || ! cmp -s README.md upstream_README.md; then
             mv upstream_README.md README.md
 
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config user.name "0eun2"
+            git config user.email "youngeun.choi26@gmail.com"
 
             git add README.md
             git commit -m "chore: sync README from upstream" || echo "No changes to commit"
