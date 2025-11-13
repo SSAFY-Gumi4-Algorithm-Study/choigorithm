@@ -1,10 +1,8 @@
 name: Sync README from another repo
 
 on:
-  # 매일 새벽 3시(UTC 기준)에 한 번 실행 (한국은 +9h → 오전 12시)
   schedule:
     - cron: '0 3 * * *'
-  # 필요할 때 수동으로도 실행할 수 있게
   workflow_dispatch:
 
 jobs:
@@ -14,15 +12,20 @@ jobs:
     steps:
       - name: Checkout my repo
         uses: actions/checkout@v4
+        with:
+          # 기본 GITHUB_TOKEN 자격증명은 쓰지 말고,
+          # 우리가 설정한 PAT로 직접 push 할 거라서 꺼둠
+          persist-credentials: false
 
       - name: Download upstream README
         run: |
-          curl -L https://github.com/SSAFY-Gumi4-Algorithm-Study/.github/blob/main/profile/README.md \
+          curl -L https://raw.githubusercontent.com/원본-owner/원본-repo/브랜치/README.md \
             -o upstream_README.md
 
       - name: Update README if changed
+        env:
+          PAT: ${{ secrets.SYNC_REPO_PAT }}
         run: |
-          # 기존 README가 없거나, 내용이 다르면 교체
           if [ ! -f README.md ] || ! cmp -s README.md upstream_README.md; then
             mv upstream_README.md README.md
 
@@ -31,7 +34,9 @@ jobs:
 
             git add README.md
             git commit -m "chore: sync README from upstream" || echo "No changes to commit"
-            git push
+
+            git remote set-url origin https://x-access-token:${PAT}@github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm.git
+            git push origin HEAD:main
           else
             echo "README is already up to date."
           fi
