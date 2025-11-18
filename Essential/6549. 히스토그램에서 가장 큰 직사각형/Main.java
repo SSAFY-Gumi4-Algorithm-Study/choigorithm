@@ -23,7 +23,7 @@ public class Main {
 			stack.push(0);
 			for (int i = 1; i <= n + 1; i++) {
 				while (!stack.isEmpty() && h[i] < h[stack.peek()]) {
-					ans = Math.max(ans, h[stack.pop()] * (i - stack.peek() - 1));
+					ans = Math.max(ans, h[stack.pop()] * (i - 1 - stack.peek()));
 				}
 				stack.push(i);
 			}
