@@ -13,7 +13,6 @@ public class Main {
     }
 
     static int[] parent;
-    static Edge[] edgeList;
 
     static int find(int x) {
         if (parent[x] < 0)
@@ -44,9 +43,8 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int v = Integer.parseInt(st.nextToken());
         int e = Integer.parseInt(st.nextToken());
+        
         parent = new int[v + 1];
-        edgeList = new Edge[e];
-
         Arrays.fill(parent, -1);
 
         PriorityQueue<Edge> pq = new PriorityQueue<>((e1, e2) -> e1.w - e2.w);
