@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        long n = Long.parseLong(reader.readLine());
-        long idx = n % 1500000;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        long n = Long.parseLong(br.readLine());
+        long idx = n % 1500000; // 피사노 주기
 
         long[] fb = new long[(int) idx + 1];
 
