@@ -6,8 +6,8 @@ public class Main {
     static long mod = 1000000007;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        long n = Long.parseLong(reader.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        long n = Long.parseLong(br.readLine());
 
         if (n == 0) {
             System.out.println(0);
